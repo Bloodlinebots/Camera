@@ -1,0 +1,22 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+bot.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Replit files (if any)
+.replit
+*.replit
+
+# Editor settings (optional)
+.vscode/
